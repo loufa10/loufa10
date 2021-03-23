@@ -1,0 +1,221 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+
+}
+.navbar{
+	width: 100%;
+	position:fixed;
+	background-color: crimson;
+	padding: 15px 0px;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.logo a{
+	color:#fff;
+	font-size: 40px;
+	font-weight: 400;
+}
+.logo a span{
+	color: #000;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block; 
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left:25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	color: black;
+
+}
+/****************************************************/
+.home{
+	height: 800px;
+	background: url('IMG_6079.JPG');
+	display: flex;
+}
+.home .max-width{
+	margin: auto 120px;
+	color: white;
+}
+.home .max-width .text-1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.home .max-width .text-2{
+	color: crimson;
+	font-size: 60px;
+	font-weight: 600;
+}
+.home .max-width .text-3{
+	font-size: 50px;
+	font-weight: 700;
+
+}
+.home .max-width .text-3 span{
+	color:crimson;
+	margin-bottom: 20px;
+}
+.home .max-width a{
+	display: inline-block;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	font-size: 40px;
+	border: 2px solid crimson;
+	color: white;
+	font-size: 40px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.home .max-width a:hover{
+	background: none;
+}
+.about{
+	padding: 200px 100px;
+}
+.about .title{
+	font-size:40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+	height: 400px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+
+}
+.about .div-right .text span{
+	color: crimson;
+}
+.about .div-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .div-right a{
+	display: inline-block;
+	font-weight: 200;
+	background-color:crimson;
+	color: white ;
+	font-size: 40px;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px;
+
+}
+.about .div-right a:hover{
+	background:none;
+	color: crimson;
+}
+.text p{
+	display: inline-block;
+	text-align: justify-all;
+}
+.loufa img{
+	height: 100px;
+	width: 100px;
+	border-radius: 200px;
+	object-fit: cover;
+	border: 5px solid crimson;
+	transition: color crimson 2s;
+}
+.tab1{
+	background-color: gray;
+	color: white;
+	transition: color crimson 2s;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px;
+	height: 310px;
+	width: 200px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.tab2{
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px;
+	transition: color crimson 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+
+}
+.tab3{
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	font-weight: 200px;
+	margin-left: 400px;
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+}
+.p5{
+	text-align: left;
+	font-size: 20px;
+}
+.p6{
+	text-align: left;
+	margin-left: 200px;
+}
+a{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	border-radius: 10px;
+	padding: 15px 30px;
+	margin-top: 20px;
+	border: 2px solid crimson;
+}
+a:hover{
+	background: none;
+	color:crimson;
+}
+.down .downcontent{
+	background-color: black;
+	color: gray;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+	
+}
